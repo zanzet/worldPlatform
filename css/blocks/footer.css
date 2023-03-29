@@ -1,0 +1,78 @@
+footer{
+    padding: 40px 28px;
+    flex-shrink: 0;
+    position: sticky;
+    bottom: 0;
+}
+.footer__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 33px;
+}
+.footer__item-link {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 130%;
+    text-transform: uppercase;
+    color: #171717;
+}
+.footer__list ul{
+    width: 878px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.social__item-wrap{
+    position: relative;
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+    border: 2px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 326px;
+}
+.facebook{
+    position: relative;
+    top: 5px;
+}
+.social__item-svg {
+    display: inline;
+    width: 40px;
+    height: 40px;
+    fill: #171717;
+}
+.footer__divider {
+    border: 1px solid #919191;
+}
+.footer__servises {
+    margin: 25px 0;
+}
+.footer__servises-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.foter__servises_item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    color: #171717;
+    cursor: pointer;
+}
+.footer__copyrite {
+    margin-top: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer__copyrite-teams {
+    margin: 0 40px;
+}

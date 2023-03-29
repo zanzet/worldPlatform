@@ -1,0 +1,39 @@
+.blok__wrapper {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 407px 1fr;
+}
+.position-stiky{
+    height: 94%;
+}
+.blok__descript {
+    padding: 50px 45px 0 0;
+    border-top: 1px solid #919191;
+}
+.blok__descript-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #171717;
+    margin-bottom: 36px;
+}
+.descript__btn {
+    position: sticky;
+    top: 20px;
+    bottom: 30px;
+}
+.btn-long-red {
+    border: none;
+    background: #FF304D;
+    border-radius: 70px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 357px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

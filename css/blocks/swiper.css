@@ -1,0 +1,24 @@
+.swiper{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1090px;
+    height: 593px;  
+}
+.swiper-body{
+    display: flex;
+}
+.swiper-pagination-bullet{
+    width: 14px;
+    height: 14px;
+    background: #FFFFFF;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+.swiper-pagination-bullet-active{
+    background: #FF304D;
+}
+.slider__pagination {
+    display: flex;
+    margin: 59px auto;
+}
+
