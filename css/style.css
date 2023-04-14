@@ -20,6 +20,7 @@
   height: 100%;
   fill: #fff;
   z-index: 5;
+  transition: all 0.5s ease;
 }
 .sprite__arrow {
   position: relative;
